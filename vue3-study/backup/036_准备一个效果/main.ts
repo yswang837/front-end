@@ -3,4 +3,7 @@ import {createApp} from 'vue'
 // 引入App根组件
 import App from './App.vue'
 
-createApp(App).mount('#app')
+// 创建一个应用
+const app = createApp(App)
+// 挂载整个应用到app容器中
+app.mount('#app')
