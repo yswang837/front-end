@@ -1,18 +1,12 @@
 <template>
-  <div class="hello">
-      <h4>你好啊！</h4>
-  </div>
+  <Person/>
 </template>
 
-<script lang="ts" setup name="App">
+<script lang="ts">
+  import Person from './components/Person.vue'
 
-</script>
-
-<style scoped>
-  .hello{
-    background-color: gray;
-    padding: 10px;
-    box-shadow: 0 0 10px;
-    border-radius: 10px;
+  export default {
+    name:'App', //组件名
+    components:{Person} //注册组件
   }
-</style>
+</script>
