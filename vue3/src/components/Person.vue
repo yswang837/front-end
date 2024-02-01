@@ -54,7 +54,7 @@
   // })
 
   // 监视，情况四：监视响应式对象中的某个属性，且该属性是对象类型的，可以直接写，也能写函数，更推荐写函数，
-  // 且此时需要手动深度监视，才会监视对象地址值及内容的变化
+  // 在手动开启deep后，如果直接写person.car，那么只会监视car内部的值的变化，如果写箭头函数，那么会监视car的地址及其内部的值的变化。
   watch(()=>person.car,(newValue,oldValue)=>{
     console.log('person.car变化了',newValue,oldValue)
   },{deep:true})
