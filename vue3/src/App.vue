@@ -1,18 +1,20 @@
 <template>
-  <div class="hello">
-      <h4>你好啊！</h4>
-  </div>
+  <!-- ref放在元素上，相当于直接拿到了这个元素，可以在脚本里面操作这个元素，比如说加背景 -->
+  <div ref="title2">你好</div>
+  <button @click="showLog">测试</button>
+  <Person ref="ren"/>
 </template>
 
 <script lang="ts" setup name="App">
+  import Person from './components/Person.vue'
+  import {ref} from 'vue'
 
-</script>
+  let title2 = ref()
+  let ren = ref()
 
-<style scoped>
-  .hello{
-    background-color: gray;
-    padding: 10px;
-    box-shadow: 0 0 10px;
-    border-radius: 10px;
+  function showLog(){
+    console.log(title2.value)
+    title2.value.style = `background-color : red`
+    console.log(ren.value)
   }
-</style>
+</script>
