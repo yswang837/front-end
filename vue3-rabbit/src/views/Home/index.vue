@@ -1,5 +1,5 @@
 <template>
-    <div class="">
+    <div class="" style="height: 1200px;">
         我是home页
     </div>
 </template>
