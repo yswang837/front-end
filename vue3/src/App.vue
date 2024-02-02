@@ -3,6 +3,7 @@
     <Header/>
     <!-- 导航区 -->
     <div class="navigate">
+      <!-- to的两种写法，字符串写法和对象写法 -->
       <RouterLink to="/home" active-class="active">首页</RouterLink>
       <RouterLink to="/news" active-class="active">新闻</RouterLink>
       <RouterLink :to="{path:'/about'}" active-class="active">关于</RouterLink>
