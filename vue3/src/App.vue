@@ -19,7 +19,7 @@
 
     let {a, b, c} = ren.value
     console.log(ren.value)
-    console.log(a,b,c);
+    console.log(a,b,c); // 父用子的数据
     
   }
 </script>
