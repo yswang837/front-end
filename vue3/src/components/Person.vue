@@ -14,7 +14,7 @@
   import useDog from '@/hooks/useDog'
 
   const {sum, bigSum, add} = useSum()
-  const {dogList,getDog} = useDog()
+  const {dogList, getDog} = useDog()
 </script>
 
 <style scoped>
