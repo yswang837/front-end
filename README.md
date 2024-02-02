@@ -45,7 +45,7 @@
 |   30     | 路由-query参数，/news/detail?k1=v1&k2=v2     |
 |   31     | 路由-params参数，/news/detail/:id/:title/:content  |
 |   32     | 路由-props配置，方便地将路由参数query和params参数进行传递 |
-|   33     | 路由-replace属性              |
+|   33     | 路由-replace属性，默认push会保留前进后退，replace不会    |
 |   34     | 路由-编程式路由导航             |
 |   35     | 路由-重定向                   |
 |   36     | 准备一个效果                   |
