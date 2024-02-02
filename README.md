@@ -46,7 +46,7 @@
 |   31     | 路由-params参数，/news/detail/:id/:title/:content  |
 |   32     | 路由-props配置，方便地将路由参数query和params参数进行传递 |
 |   33     | 路由-replace属性，默认push会保留前进后退，replace不会    |
-|   34     | 路由-编程式路由导航             |
+|   34     | 路由-编程式路由导航，满足一定条件，编程来实现跳转，类似router.push('/news') |
 |   35     | 路由-重定向                   |
 |   36     | 准备一个效果                   |
 |   37     | 搭建pinia环境                 |
