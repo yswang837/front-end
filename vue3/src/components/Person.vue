@@ -12,15 +12,15 @@
 
   // 创建一个title2，用于存储ref标记的内容
   let title2 = ref()
-  let a = ref(0)
-  let b = ref(1)
-  let c = ref(2)
+  let a = ref("大佬真厉害")
+  let b = ref(2)
+  let c = ref(3)
 
   function showLog(){
     console.log(title2.value)
   }
 
-  defineExpose({a,b,c})
+  defineExpose({a,b,c}) // 将a b c暴露给别的组件使用
 </script>
 
 <style scoped>
