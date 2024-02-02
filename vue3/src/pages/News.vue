@@ -3,6 +3,7 @@
     <!-- 导航区 -->
     <ul>
       <li v-for="news in newsList" :key="news.id">
+        <!-- 从News组件，跳到detail组件 -->
         <RouterLink to="/news/detail">{{news.title}}</RouterLink>
       </li>
     </ul>
