@@ -9,7 +9,7 @@
       <RouterLink :to="{name:'xinwen'}" active-class="active">新闻</RouterLink>
       <RouterLink :to="{path:'/about'}" active-class="active">关于</RouterLink>
     </div>
-    <!-- 展示区 -->
+    <!-- 展示区，RouterLink跳到地址，这里就展示什么路由组件，RouterView用于占位的 -->
     <div class="main-content">
       <RouterView></RouterView>
     </div>
