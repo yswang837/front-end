@@ -42,9 +42,9 @@
 |   27     | 路由-to的两种写法，字符串写法和对象写法              |
 |   28     | 路由-命名路由，路由可以起名字                 |
 |   29     | 路由-嵌套路由，路由可以嵌套                  |
-|   30     | 路由-query参数，/news/detail?k1=v1&k2=v2               |
-|   31     | 路由-params参数               |
-|   32     | 路由-props配置                |
+|   30     | 路由-query参数，/news/detail?k1=v1&k2=v2     |
+|   31     | 路由-params参数，/news/detail/:id/:title/:content  |
+|   32     | 路由-props配置，方便地将路由参数query和params参数进行传递 |
 |   33     | 路由-replace属性              |
 |   34     | 路由-编程式路由导航             |
 |   35     | 路由-重定向                   |
