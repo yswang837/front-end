@@ -3,6 +3,7 @@
     <Header/>
     <!-- 导航区 -->
     <div class="navigate">
+      <!-- 默认是router.push()，这个会留下前进后退的历史记录，类似有个栈，router.replace()直接替换，没有前进后退记录 -->
       <RouterLink replace to="/home" active-class="active">首页</RouterLink>
       <RouterLink replace :to="{name:'xinwen'}" active-class="active">新闻</RouterLink>
       <RouterLink replace :to="{path:'/about'}" active-class="active">关于</RouterLink>
