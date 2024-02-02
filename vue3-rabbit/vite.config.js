@@ -16,7 +16,10 @@ export default defineConfig({
       resolvers: [ElementPlusResolver()],
     }),
     Components({
-      resolvers: [ElementPlusResolver()],
+      resolvers: [
+        // 1. 配置elementPlus采用sass样式配色系统
+        ElementPlusResolver({ importStyle: "sass" }),
+      ],
     }),
   ],
   resolve: {
@@ -24,5 +27,12 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@use './styles/element/index.scss' as *;`, // 视频中.是@，官网.是~，但这样能用
+      },
+    },
+  },
 })
