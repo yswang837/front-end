@@ -1,18 +1,16 @@
 <template>
-  <div class="hello">
-      <h4>你好啊！</h4>
-  </div>
+  <Person v-if="isShow"/>
 </template>
 
 <script lang="ts" setup name="App">
+  import Person from './components/Person.vue'
+  import {ref,onMounted} from 'vue'
+
+  let isShow = ref(true)
+
+  // 挂载完毕，会深度优先地进行挂载，
+  onMounted(()=>{
+    console.log('父---挂载完毕')
+  })
 
 </script>
-
-<style scoped>
-  .hello{
-    background-color: gray;
-    padding: 10px;
-    box-shadow: 0 0 10px;
-    border-radius: 10px;
-  }
-</style>
