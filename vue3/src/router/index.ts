@@ -1,7 +1,9 @@
 // 创建一个路由器，并暴露出去
 
 // 注意点1：路由组件一般放在pages文件夹views文件夹，一般组件放在components文件夹
-// 注意点2：路由组件通过路由规则来调用，一般组件通过程序员写出来调用，如本例的<Header/>
+//        路由组件通过路由规则来调用，一般组件通过程序员写出来调用，如本例的<Header/>
+
+// 注意点2：通过点击导航，视觉效果上消失了的路由组件，默认是被卸载了，需要的时候再去挂载
 
 // 第一步：引入createRouter
 import {createRouter,createWebHistory} from 'vue-router'
