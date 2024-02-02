@@ -7,22 +7,24 @@
 
 ## html和css直接用liveServer可查看效果
 
-## vue3的分支与知识点对照表，切换分支可快速得到一个能运行看效果的代码
+## vue3的分支与知识点对照表
+
+&emsp;&emsp;切换分支可快速得到一个能运行看效果的代码
 
 | 分支名    |    知识点                    |
 | :----:   | :-----------:               |
-|   01     | 写一个App组件                 |
-|   02     | 一个简单的效果                 |
-|   03     | setup概述                    |
-|   04     | setup返回值                   |
-|   05     | setup与OptionAPI的关系        |
-|   06     | setup语法糖                   |
-|   07     | ref创建基本类型的响应式数据      |
+|   01     | 实现一个最简单的App组件         |
+|   02     | App组件上新增Person组件        |
+|   03     | setup概述，写在setup里的数据和方法等，返回后可直接被模板使用 |
+|   04     | setup返回值，可直接返回一个渲染函数，此时模板失效                  |
+|   05     | setup与OptionAPI的关系，setup与data()和methods()的先后问题 |
+|   06     | setup语法糖，将setup和name直接写在script标签上，不需要显式返回，模板也可用 |
+|   07     | ref创建基本类型的响应式数据      | 
 |   08     | reactive创建对象类型的响应式数据 |
 |   09     | ref创建对象类型的响应式数据      |
 |   10     | ref对比reactive               |
-|   11     | toRefs与toRef                |
-|   12     | computed计算属性              |
+|   11     | toRefs与toRef，toRefs(reactive)配合解构使用，解构之后的值依然保持响应式 |
+|   12     | computed计算属性，同函数差不多，不过其有缓存，计算项如果不变，那只会调用一次，函数则会调用多次 |
 |   13     | watch监视-情况1               |
 |   14     | watch监视-情况2               |
 |   15     | watch监视-情况3               |
