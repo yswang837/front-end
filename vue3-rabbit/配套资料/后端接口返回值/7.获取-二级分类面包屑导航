@@ -1,0 +1,161 @@
+/category/sub/filter
+
+{
+    "id": "1005999003",
+    "name": "居家生活用品",
+    "picture": null,
+    "parentId": "1005000",
+    "parentName": "居家",
+    "goods": [
+        {
+            "id": "3463003",
+            "name": "法国年份雅文邑700毫升",
+            "desc": "经典产区限量单一老年份",
+            "price": "1480.00",
+            "picture": "https://yanxuan-item.nosdn.127.net/0a2fff6e0b55178fbbe99d97d94d20a8.png",
+            "orderNum": 3645
+        },
+        {
+            "id": "3494006",
+            "name": "梅乃宿梅酒720毫升",
+            "desc": "小藏手工酿造，百年名酒",
+            "price": "168.00",
+            "picture": "https://yanxuan-item.nosdn.127.net/330913911087b44b0d817dd78233165f.png",
+            "orderNum": 2219
+        },
+        {
+            "id": "1666009",
+            "name": "多米尼加陈年朗姆酒700毫升",
+            "desc": "陈年朗姆，香味芬芳",
+            "price": "238.00",
+            "picture": "https://yanxuan-item.nosdn.127.net/e3f387109491d92c47179d029d340b1f.jpg",
+            "orderNum": 690
+        },
+        {
+            "id": "1503001",
+            "name": "全新升级，四川酸辣粉195克*6杯",
+            "desc": "秘制酱包，配料丰富，爽弹滑口更巴适",
+            "price": "69.00",
+            "picture": "https://yanxuan-item.nosdn.127.net/54d1af8bc1e5e566b1455c8cbe3039aa.jpg",
+            "orderNum": 1570
+        },
+        {
+            "id": "1548007",
+            "name": "川味牛肉辣椒酱190克",
+            "desc": "辣香麻爽，地道川渝风味",
+            "price": "38.00",
+            "picture": "https://yanxuan-item.nosdn.127.net/0e1681ab3a4a5aaf185f0bb123f07f99.jpg",
+            "orderNum": 1284
+        },
+        {
+            "id": "1379052170040578049",
+            "name": "极光限定 珠光蓝珐琅锅",
+            "desc": null,
+            "price": "199.00",
+            "picture": "http://yjy-xiaotuxian-dev.oss-cn-beijing.aliyuncs.com/picture/2021-04-05/7f483771-6831-4a7a-abdb-2625acb755f3.png",
+            "orderNum": 155
+        },
+        {
+            "id": "1462019",
+            "name": "智利老牌名庄，梅洛干红750毫升",
+            "desc": "智利名庄伊拉苏，经典品种甜美柔顺",
+            "price": "98.00",
+            "picture": "https://yanxuan-item.nosdn.127.net/ee06af4496643d621597567921f10b17.png",
+            "orderNum": 583
+        },
+        {
+            "id": "1369155859933827074",
+            "name": "钻石陶瓷涂层多用锅18cm 小奶锅",
+            "desc": "安全耐用，易于清洗",
+            "price": "149.00",
+            "picture": "http://yjy-xiaotuxian-dev.oss-cn-beijing.aliyuncs.com/picture/2021-04-05/6fdcac19-dd44-442c-9212-f7ec3cf3ed18.jpg",
+            "orderNum": 1912
+        },
+        {
+            "id": "1188006",
+            "name": "原产兰州，气清味美，甜百合干168克",
+            "desc": "干嚼清甜，一煮即糯",
+            "price": "42.80",
+            "picture": "https://yanxuan-item.nosdn.127.net/b0b1556219d1445ba2818c5bf1bdc6af.png",
+            "orderNum": 428
+        },
+        {
+            "id": "1135081",
+            "name": "紫米410克",
+            "desc": "一年一熟的御田胭脂米",
+            "price": "19.00",
+            "picture": "https://yanxuan-item.nosdn.127.net/a3c0bb3be38ccf510ecaedb81f5bcd9f.png",
+            "orderNum": 300
+        },
+        {
+            "id": "1189005",
+            "name": "楼兰灰枣328克",
+            "desc": "肉实质脆，枣香浓郁",
+            "price": "26.00",
+            "picture": "https://yanxuan-item.nosdn.127.net/63aedbfedf9423b2b3109ee0e04b9dc4.png",
+            "orderNum": 729
+        },
+        {
+            "id": "1270008",
+            "name": "黄金玉粟粥米500克",
+            "desc": "谷物缤纷，香甜软糯",
+            "price": "9.90",
+            "picture": "https://yanxuan-item.nosdn.127.net/5f62c7ab543b1152383a0e9941c09bfd.png",
+            "orderNum": 618
+        },
+        {
+            "id": "1135076",
+            "name": "红小豆450克*3袋",
+            "desc": "皮薄易煮，粒粒香甜",
+            "price": "42.80",
+            "picture": "https://yanxuan-item.nosdn.127.net/eaec90be370a438e565e10189b7a390a.png",
+            "orderNum": 350
+        }
+    ],
+    "categories": [
+        {
+            "id": "1005999003",
+            "name": "居家生活用品",
+            "layer": 2,
+            "parent": null
+        },
+        {
+            "id": "1008017",
+            "name": "收纳",
+            "layer": 2,
+            "parent": null
+        },
+        {
+            "id": "1017000",
+            "name": "宠物食品",
+            "layer": 2,
+            "parent": null
+        },
+        {
+            "id": "109243003",
+            "name": "艺术藏品",
+            "layer": 2,
+            "parent": null
+        },
+        {
+            "id": "109248004",
+            "name": "宠物用品",
+            "layer": 2,
+            "parent": null
+        },
+        {
+            "id": "109293000",
+            "name": "家庭医疗",
+            "layer": 2,
+            "parent": null
+        },
+        {
+            "id": "109308000",
+            "name": "中医保健",
+            "layer": 2,
+            "parent": null
+        }
+    ],
+    "brands": [],
+    "saleProperties": []
+}
