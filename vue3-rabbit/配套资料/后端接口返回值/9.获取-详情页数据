@@ -1,0 +1,757 @@
+/goods
+
+
+{
+  "code": "1",
+  "msg": "操作成功",
+  "result": {
+    "id": "4023641",
+    "name": "防踢鞋头，儿童学步健康机能鞋21-30",
+    "spuCode": "4023641",
+    "desc": "包头防踢用心呵护",
+    "price": "129.00",
+    "oldPrice": "129.00",
+    "discount": 1,
+    "inventory": 53180037,
+    "brand": {
+      "id": "spider99999999999",
+      "name": "传智自有品牌",
+      "nameEn": "chuanzhi",
+      "logo": "https://yanxuan-item.nosdn.127.net/f6ddd429632de6170900dc2fbc541fd8.png?type=webp&imageView&thumbnail=78x78&quality=95",
+      "picture": "https://yanxuan-item.nosdn.127.net/f6ddd429632de6170900dc2fbc541fd8.png?type=webp&imageView&thumbnail=78x78&quality=95",
+      "type": null,
+      "desc": null,
+      "place": null
+    },
+    "salesCount": 1247,
+    "commentCount": 0,
+    "collectCount": 1,
+    "mainVideos": [],
+    "videoScale": 1,
+    "mainPictures": [
+      "https://yanxuan-item.nosdn.127.net/33ba674fbb13e2380ee8a74371eacf43.jpg",
+      "https://yanxuan-item.nosdn.127.net/c93bdc468e4af9efe694d4b475c386a9.jpg",
+      "https://yanxuan-item.nosdn.127.net/ada8342ac11d9196d0912d2bd4399688.jpg",
+      "https://yanxuan-item.nosdn.127.net/9e23b76b499ac0db633fe50eac884c6e.jpg",
+      "https://yanxuan-item.nosdn.127.net/2944b6c8902f4cf372b2744a294bdc98.jpg"
+    ],
+    "specs": [
+      {
+        "name": "颜色",
+        "id": "1482374475712430082",
+        "values": [
+          {
+            "name": "黑色(LXJ001)",
+            "picture": "https://yanxuan-item.nosdn.127.net/5a691cd1764b91ad13c6459a5ff31729.png",
+            "desc": "学步鞋-销售属性颜色-黑色(LXJ001)-规格属性图片"
+          },
+          {
+            "name": "蓝色(LXJ001)",
+            "picture": "https://yanxuan-item.nosdn.127.net/0a1c17fcfcf9316e755faf70339c89c5.png",
+            "desc": "学步鞋-销售属性颜色-蓝色(LXJ001)-规格属性图片"
+          },
+          {
+            "name": "粉色(LXJ001)",
+            "picture": "https://yanxuan-item.nosdn.127.net/439193e6b296c7e072425cd1dd15c89e.png",
+            "desc": "学步鞋-销售属性颜色-粉色(LXJ001)-规格属性图片"
+          }
+        ]
+      },
+      {
+        "name": "尺码",
+        "id": "1482374476370935810",
+        "values": [
+          {
+            "name": "22码（脚长12.6CM--13.5CM",
+            "picture": null,
+            "desc": "学步鞋-销售属性尺码-22码（脚长12.6CM--13.5CM-规格属性图片"
+          },
+          {
+            "name": "23.5码（脚长13.6CM--14CM",
+            "picture": null,
+            "desc": "学步鞋-销售属性尺码-23.5码（脚长13.6CM--14CM-规格属性图片"
+          },
+          {
+            "name": "25码（脚长14.6CM--15.5CM",
+            "picture": null,
+            "desc": "学步鞋-销售属性尺码-25码（脚长14.6CM--15.5CM-规格属性图片"
+          },
+          {
+            "name": "26.5码（脚长15.6CM--16CM",
+            "picture": null,
+            "desc": "学步鞋-销售属性尺码-26.5码（脚长15.6CM--16CM-规格属性图片"
+          },
+          {
+            "name": "27.5码（脚长16.6CM--17CM",
+            "picture": null,
+            "desc": "学步鞋-销售属性尺码-27.5码（脚长16.6CM--17CM-规格属性图片"
+          },
+          {
+            "name": "28.5码（脚长17.6CM--18CM",
+            "picture": null,
+            "desc": "学步鞋-销售属性尺码-28.5码（脚长17.6CM--18CM-规格属性图片"
+          },
+          {
+            "name": "30码（脚长18.6CM--19.5CM",
+            "picture": null,
+            "desc": "学步鞋-销售属性尺码-30码（脚长18.6CM--19.5CM-规格属性图片"
+          },
+          {
+            "name": "21码（脚长11.6CM--12.5CM",
+            "picture": null,
+            "desc": "学步鞋-销售属性尺码-21码（脚长11.6CM--12.5CM-规格属性图片"
+          }
+        ]
+      }
+    ],
+    "skus": [
+      {
+        "id": "300456055",
+        "skuCode": "300456055",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 4075,
+        "picture": "https://yanxuan-item.nosdn.127.net/439193e6b296c7e072425cd1dd15c89e.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "粉色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "21码（脚长11.6CM--12.5CM"
+          }
+        ]
+      },
+      {
+        "id": "300456056",
+        "skuCode": "300456056",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 280,
+        "picture": "https://yanxuan-item.nosdn.127.net/439193e6b296c7e072425cd1dd15c89e.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "粉色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "22码（脚长12.6CM--13.5CM"
+          }
+        ]
+      },
+      {
+        "id": "300456057",
+        "skuCode": "300456057",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 7203,
+        "picture": "https://yanxuan-item.nosdn.127.net/439193e6b296c7e072425cd1dd15c89e.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "粉色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "23.5码（脚长13.6CM--14CM"
+          }
+        ]
+      },
+      {
+        "id": "300456058",
+        "skuCode": "300456058",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 7711,
+        "picture": "https://yanxuan-item.nosdn.127.net/439193e6b296c7e072425cd1dd15c89e.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "粉色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "25码（脚长14.6CM--15.5CM"
+          }
+        ]
+      },
+      {
+        "id": "300456059",
+        "skuCode": "300456059",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 6029,
+        "picture": "https://yanxuan-item.nosdn.127.net/439193e6b296c7e072425cd1dd15c89e.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "粉色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "26.5码（脚长15.6CM--16CM"
+          }
+        ]
+      },
+      {
+        "id": "300456060",
+        "skuCode": "300456060",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 3463,
+        "picture": "https://yanxuan-item.nosdn.127.net/439193e6b296c7e072425cd1dd15c89e.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "粉色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "27.5码（脚长16.6CM--17CM"
+          }
+        ]
+      },
+      {
+        "id": "300456061",
+        "skuCode": "300456061",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 5002,
+        "picture": "https://yanxuan-item.nosdn.127.net/439193e6b296c7e072425cd1dd15c89e.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "粉色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "28.5码（脚长17.6CM--18CM"
+          }
+        ]
+      },
+      {
+        "id": "300456062",
+        "skuCode": "300456062",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 2166,
+        "picture": "https://yanxuan-item.nosdn.127.net/439193e6b296c7e072425cd1dd15c89e.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "粉色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "30码（脚长18.6CM--19.5CM"
+          }
+        ]
+      },
+      {
+        "id": "300456063",
+        "skuCode": "300456063",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 8487,
+        "picture": "https://yanxuan-item.nosdn.127.net/0a1c17fcfcf9316e755faf70339c89c5.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "蓝色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "21码（脚长11.6CM--12.5CM"
+          }
+        ]
+      },
+      {
+        "id": "300456064",
+        "skuCode": "300456064",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 8690,
+        "picture": "https://yanxuan-item.nosdn.127.net/0a1c17fcfcf9316e755faf70339c89c5.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "蓝色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "22码（脚长12.6CM--13.5CM"
+          }
+        ]
+      },
+      {
+        "id": "300456065",
+        "skuCode": "300456065",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 2226,
+        "picture": "https://yanxuan-item.nosdn.127.net/0a1c17fcfcf9316e755faf70339c89c5.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "蓝色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "23.5码（脚长13.6CM--14CM"
+          }
+        ]
+      },
+      {
+        "id": "300456066",
+        "skuCode": "300456066",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 1983,
+        "picture": "https://yanxuan-item.nosdn.127.net/0a1c17fcfcf9316e755faf70339c89c5.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "蓝色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "25码（脚长14.6CM--15.5CM"
+          }
+        ]
+      },
+      {
+        "id": "300456067",
+        "skuCode": "300456067",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 9019,
+        "picture": "https://yanxuan-item.nosdn.127.net/0a1c17fcfcf9316e755faf70339c89c5.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "蓝色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "26.5码（脚长15.6CM--16CM"
+          }
+        ]
+      },
+      {
+        "id": "300456068",
+        "skuCode": "300456068",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 4107,
+        "picture": "https://yanxuan-item.nosdn.127.net/0a1c17fcfcf9316e755faf70339c89c5.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "蓝色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "27.5码（脚长16.6CM--17CM"
+          }
+        ]
+      },
+      {
+        "id": "300456069",
+        "skuCode": "300456069",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 7811,
+        "picture": "https://yanxuan-item.nosdn.127.net/0a1c17fcfcf9316e755faf70339c89c5.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "蓝色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "28.5码（脚长17.6CM--18CM"
+          }
+        ]
+      },
+      {
+        "id": "300456070",
+        "skuCode": "300456070",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 8602,
+        "picture": "https://yanxuan-item.nosdn.127.net/0a1c17fcfcf9316e755faf70339c89c5.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "蓝色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "30码（脚长18.6CM--19.5CM"
+          }
+        ]
+      },
+      {
+        "id": "300456071",
+        "skuCode": "300456071",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 5795,
+        "picture": "https://yanxuan-item.nosdn.127.net/5a691cd1764b91ad13c6459a5ff31729.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "黑色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "21码（脚长11.6CM--12.5CM"
+          }
+        ]
+      },
+      {
+        "id": "300456072",
+        "skuCode": "300456072",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 8322,
+        "picture": "https://yanxuan-item.nosdn.127.net/5a691cd1764b91ad13c6459a5ff31729.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "黑色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "22码（脚长12.6CM--13.5CM"
+          }
+        ]
+      },
+      {
+        "id": "300456073",
+        "skuCode": "300456073",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 3999,
+        "picture": "https://yanxuan-item.nosdn.127.net/5a691cd1764b91ad13c6459a5ff31729.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "黑色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "23.5码（脚长13.6CM--14CM"
+          }
+        ]
+      },
+      {
+        "id": "300456074",
+        "skuCode": "300456074",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 1064,
+        "picture": "https://yanxuan-item.nosdn.127.net/5a691cd1764b91ad13c6459a5ff31729.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "黑色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "25码（脚长14.6CM--15.5CM"
+          }
+        ]
+      },
+      {
+        "id": "300456075",
+        "skuCode": "300456075",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 1758,
+        "picture": "https://yanxuan-item.nosdn.127.net/5a691cd1764b91ad13c6459a5ff31729.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "黑色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "26.5码（脚长15.6CM--16CM"
+          }
+        ]
+      },
+      {
+        "id": "300456076",
+        "skuCode": "300456076",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 8116,
+        "picture": "https://yanxuan-item.nosdn.127.net/5a691cd1764b91ad13c6459a5ff31729.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "黑色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "27.5码（脚长16.6CM--17CM"
+          }
+        ]
+      },
+      {
+        "id": "300456077",
+        "skuCode": "300456077",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 600,
+        "picture": "https://yanxuan-item.nosdn.127.net/5a691cd1764b91ad13c6459a5ff31729.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "黑色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "28.5码（脚长17.6CM--18CM"
+          }
+        ]
+      },
+      {
+        "id": "300456078",
+        "skuCode": "300456078",
+        "price": "129.00",
+        "oldPrice": "169.00",
+        "inventory": 2241,
+        "picture": "https://yanxuan-item.nosdn.127.net/5a691cd1764b91ad13c6459a5ff31729.png",
+        "specs": [
+          {
+            "name": "颜色",
+            "valueName": "黑色(LXJ001)"
+          },
+          {
+            "name": "尺码",
+            "valueName": "30码（脚长18.6CM--19.5CM"
+          }
+        ]
+      }
+    ],
+    "categories": [
+      {
+        "id": "109243022",
+        "name": "学步鞋",
+        "layer": 2,
+        "parent": {
+          "id": "1011000",
+          "name": "母婴",
+          "layer": 1,
+          "parent": null
+        }
+      },
+      {
+        "id": "1011000",
+        "name": "母婴",
+        "layer": 1,
+        "parent": null
+      }
+    ],
+    "details": {
+      "pictures": [
+        "https://yanxuan-item.nosdn.127.net/cc20666f8525c9da62f881cf750a869c.jpg",
+        "https://yanxuan-item.nosdn.127.net/0a2bbca0b9356b79f63ad798451aad86.jpg",
+        "https://yanxuan-item.nosdn.127.net/8d696d234795cf8da0175558d900c949.jpg",
+        "https://yanxuan-item.nosdn.127.net/683934c2cb6b0363d720830d7d8f523d.jpg",
+        "https://yanxuan-item.nosdn.127.net/3e78d4ba094344969bb0b31cc824df31.jpg",
+        "https://yanxuan-item.nosdn.127.net/26b1466fd4781cba8183cb9c369d761d.jpg",
+        "https://yanxuan-item.nosdn.127.net/83b64ccf48a7358cefe0f097e88dbd35.jpg",
+        "https://yanxuan-item.nosdn.127.net/5a61d35adb6e03e48afcfa745485b3cf.jpg",
+        "https://yanxuan-item.nosdn.127.net/ab996daae146b5edf183ed4a7e9ba40a.jpg",
+        "https://yanxuan-item.nosdn.127.net/9d706e060169e31fb7c7361953470aeb.jpg",
+        "https://yanxuan-item.nosdn.127.net/674b38a18994bcee7ac068c2fab34c3f.jpg",
+        "https://yanxuan-item.nosdn.127.net/3e25cbb6bd48b4e2a6dc3c48e7dacb48.jpg",
+        "https://yanxuan-item.nosdn.127.net/82284fef69cc59aa0bd0d7c5c6fcd491.jpg",
+        "https://yanxuan-item.nosdn.127.net/ae859c41795afa6606b711bfc1f77d6c.jpg",
+        "https://yanxuan-item.nosdn.127.net/c641e7a2a8cccb07d6306061db1f4ae6.jpg",
+        "https://yanxuan-item.nosdn.127.net/7e7ea9234e7fd90e2c478f7d8c96a8e8.jpg",
+        "https://yanxuan-item.nosdn.127.net/d3775f98656f942e0fecdbb1095b99c6.jpg",
+        "https://yanxuan-item.nosdn.127.net/4c7494f9ffe55d281192daf67ac5cde3.jpg",
+        "https://yanxuan-item.nosdn.127.net/9df29d25984a4949b599b610338ca243.jpg",
+        "https://yanxuan-item.nosdn.127.net/2726be604c6b8d84a7cfe669e23da411.jpg",
+        "https://yanxuan-item.nosdn.127.net/0e401cd3c289d2ffc873566722be92bb.jpg",
+        "https://yanxuan-item.nosdn.127.net/0cb0af6261a2e583f3a69c9750a04f50.jpg",
+        "https://yanxuan-item.nosdn.127.net/59cd7ec0694b6906ec5ab55243969aeb.jpg",
+        "https://yanxuan-item.nosdn.127.net/412c935a4ba1aaf90dc40b27576cc1cb.jpg",
+        "https://yanxuan-item.nosdn.127.net/347046875d53e3b8e7d1f15d0f5e9b60.jpg",
+        "https://yanxuan-item.nosdn.127.net/d41846aafcbf4d1c22ef0b090d80cc92.jpg",
+        "https://yanxuan-item.nosdn.127.net/5a43be1664b3b3db376de112caa0b44b.jpg",
+        "https://yanxuan-item.nosdn.127.net/cd360080f50619364015fc5b6b8e188d.jpg",
+        "https://yanxuan-item.nosdn.127.net/a53cb016cb493b2f749eda1b3d55b8f2.jpg",
+        "https://yanxuan-item.nosdn.127.net/dc95fab74d2f84f2b861de87d21d0d55.jpg",
+        "https://yanxuan-item.nosdn.127.net/2aa6ff7b14825d4d41822f115993a114.jpg",
+        "https://yanxuan-item.nosdn.127.net/a0fd3d2884a9c8f17120b0e2b1c65604.jpg",
+        "https://yanxuan-item.nosdn.127.net/6217eb7a710838e891b15a5015511710.jpg",
+        "https://yanxuan-item.nosdn.127.net/fdc5c44080484a66d09f7852da991f3a.jpg",
+        "https://yanxuan-item.nosdn.127.net/89fbe34fa467e2b5426d4aef56d4ff1b.jpg",
+        "https://yanxuan-item.nosdn.127.net/cca3b4629e03c4a005e3b49cecb7013b.jpg",
+        "https://yanxuan-item.nosdn.127.net/eb34ec960dd8b218cd865ef67e66c49c.jpg",
+        "https://yanxuan-item.nosdn.127.net/84e77c6a962d8e408359b46f0a6c4197.jpg",
+        "https://yanxuan-item.nosdn.127.net/1e4e5f657d797d38d6b6b257cab8c2f6.jpg",
+        "https://yanxuan-item.nosdn.127.net/5c3261f3c9a0e4c7bfada6eee85679a1.jpg",
+        "https://yanxuan-item.nosdn.127.net/0218a29f58130b3931b03fb31b3d45cb.jpg",
+        "https://yanxuan-item.nosdn.127.net/0e2ecaef00893d0e88f42055cff96fdc.jpg",
+        "https://yanxuan-item.nosdn.127.net/91055fc4ff1ada5784553e813bdd3dce.jpg",
+        "https://yanxuan-item.nosdn.127.net/7c07eb40ce70e0adf6fe7b1fb1255c9e.jpg",
+        "https://yanxuan-item.nosdn.127.net/130b8292d083cd342d50a499ae1539f2.jpg",
+        "https://yanxuan-item.nosdn.127.net/c418b4146043ef7084571c261a9b9c1f.jpg",
+        "https://yanxuan-item.nosdn.127.net/aca2e8429797e41d04fc71e0f23daa43.jpg",
+        "https://yanxuan-item.nosdn.127.net/92198dd70a609766f08d87ac7bb4dabc.jpg",
+        "https://yanxuan-item.nosdn.127.net/ced76f973046cbbc0eebd1ba6d606c24.jpg",
+        "https://yanxuan-item.nosdn.127.net/575f1025d610faa5a0f01e8980280a7f.jpg",
+        "https://yanxuan-item.nosdn.127.net/525707488872630e804f68e71428836c.jpg",
+        "https://yanxuan-item.nosdn.127.net/6fa8a4eeb1abd552dda835dd623a7040.jpg",
+        "https://yanxuan-item.nosdn.127.net/cb4022fde849992f3d460902b6d063d5.jpg",
+        "https://yanxuan-item.nosdn.127.net/d67bfefd788bb8684cc704b982d4abd0.jpg",
+        "https://yanxuan-item.nosdn.127.net/1dc4c5068b1189d0d28cab2a08fcd35e.jpg",
+        "https://yanxuan-item.nosdn.127.net/c59ff3cf56666ded0e0dd0f079379e03.jpg",
+        "https://yanxuan-item.nosdn.127.net/e971888cc0e956eb35901f12816d656f.jpg",
+        "https://yanxuan-item.nosdn.127.net/6069df02046721bcf97724e24fcce168.jpg",
+        "https://yanxuan-item.nosdn.127.net/ca1cf747bf2c0dcdf9c94441916a8f80.jpg",
+        "https://yanxuan-item.nosdn.127.net/b121fc2220cedd429b5c38500b3b7a5a.jpg",
+        "https://yanxuan-item.nosdn.127.net/4363c8bfaca6290ed28f807b0b5238cd.jpg",
+        "https://yanxuan-item.nosdn.127.net/a1ff78aaa7bfac1b4846a7f69354d2e2.jpg",
+        "https://yanxuan-item.nosdn.127.net/4e0187bb55d30b0b50ff2eef184a3a7d.jpg",
+        "https://yanxuan-item.nosdn.127.net/723ac473e12116cb6d0c18ab6398e557.jpg",
+        "https://yanxuan-item.nosdn.127.net/edd09ad3724a175981be4e1fb5718474.jpg",
+        "https://yanxuan-item.nosdn.127.net/d42253db75f9d36d561c5fd0cd4c6a40.jpg",
+        "https://yanxuan-item.nosdn.127.net/f6e74d41abf6c8205e14ea2c946fd71e.jpg",
+        "https://yanxuan-item.nosdn.127.net/10cd23086a0256b22ce924d37b668143.jpg",
+        "https://yanxuan-item.nosdn.127.net/c157a3068546a1eb2a0897b875eac558.jpg",
+        "https://yanxuan-item.nosdn.127.net/24ea5710df43e2d96048416e1bd853d7.jpg",
+        "https://yanxuan-item.nosdn.127.net/d491e0622417baf51335cdac6732fa3f.jpg",
+        "https://yanxuan-item.nosdn.127.net/2572c5bd40d1ef43e84c74bbc162e134.jpg",
+        "https://yanxuan-item.nosdn.127.net/93b30663b59e64809af3a3db947dcb53.jpg",
+        "https://yanxuan-item.nosdn.127.net/58cf571e7e398b0f687dcb5b44fbb753.jpg",
+        "https://yanxuan-item.nosdn.127.net/e25cbd3b206a22ed242527d9a9be7e19.jpg",
+        "https://yanxuan-item.nosdn.127.net/caedaf9bbef83070d18d58c333e95e5c.jpg",
+        "https://yanxuan-item.nosdn.127.net/d8b871bb540282e65f4edc39ff20e985.jpg",
+        "https://yanxuan-item.nosdn.127.net/3c353332bfca54b0e82f177469443962.jpg",
+        "https://yanxuan-item.nosdn.127.net/4ed3c12d11c832aefb07aec82ee6f63b.jpg",
+        "https://yanxuan-item.nosdn.127.net/cde6673608dacf0a7f1bb699a8bb919b.jpg",
+        "https://yanxuan-item.nosdn.127.net/777db4e89b0a129dc6e6c7e915c4c139.jpg",
+        "https://yanxuan-item.nosdn.127.net/ccf0491d7c72ba51faae3dc26d316d04.jpg",
+        "https://yanxuan-item.nosdn.127.net/ff14fde649ac4eaddb1ef27d79de7e02.jpg",
+        "https://yanxuan-item.nosdn.127.net/1130f9b20830bc324391bf5e8e929141.jpg",
+        "https://yanxuan-item.nosdn.127.net/64170d50238929758291180520714b2c.jpg",
+        "https://yanxuan-item.nosdn.127.net/8ae326cf45ab2aceb694b5e6da52a9e4.jpg",
+        "https://yanxuan-item.nosdn.127.net/3771d5a8c10877200067207144a39869.jpg",
+        "https://yanxuan-item.nosdn.127.net/f7aa97388b4988b6ad8f11a47aae443d.jpg",
+        "https://yanxuan-item.nosdn.127.net/6695b29790482ce971013ea5eb8ab744.jpg",
+        "https://yanxuan-item.nosdn.127.net/2d1ed7e423344da77fb2ea84817a36ce.jpg",
+        "https://yanxuan-item.nosdn.127.net/85eb4ca9bca42ec6d66b58165f91c64b.jpg",
+        "https://yanxuan-item.nosdn.127.net/97c55e996c0414b351e5c085a92bc105.jpg",
+        "https://yanxuan-item.nosdn.127.net/84c13bfb01c0da5a8b678dfe6ae7d8db.jpg",
+        "https://yanxuan-item.nosdn.127.net/2afa84bc5310d1452646f63932aa3321.jpg",
+        "https://yanxuan-item.nosdn.127.net/bc12b3f0ce0bd2d54bd80346b6e39ee3.jpg",
+        "https://yanxuan-item.nosdn.127.net/56fda78d0c6d00d0c1af9cde3e49fc0c.jpg",
+        "https://yanxuan-item.nosdn.127.net/ef7505d0550f06e6b5f4913f1d9ad491.jpg",
+        "https://yanxuan-item.nosdn.127.net/2724172caa35737efcdec1f5429ef343.jpg",
+        "https://yanxuan-item.nosdn.127.net/8030078e28219a990b07f4f67bcf647a.jpg",
+        "https://yanxuan-item.nosdn.127.net/2bd6c1d5c57e7211c42a38ed9ada1676.jpg",
+        "https://yanxuan-item.nosdn.127.net/1fbc0932d7c5f74ac54036d0cbc3d46f.jpg"
+      ],
+      "properties": [
+        {
+          "name": "适用年龄",
+          "value": "6-9岁、3-6岁、1-3岁"
+        },
+        {
+          "name": "适用季节",
+          "value": "四季"
+        },
+        {
+          "name": "适用场景",
+          "value": "不限场景"
+        },
+        {
+          "name": "质量等级",
+          "value": "合格品"
+        }
+      ]
+    },
+    "isPreSale": false,
+    "isCollect": null,
+    "recommends": null,
+    "userAddresses": null,
+    "similarProducts": [
+      {
+        "id": "4023641",
+        "name": "防踢鞋头，儿童学步健康机能鞋21-30",
+        "desc": "包头防踢用心呵护",
+        "price": "129.00",
+        "picture": "https://yanxuan-item.nosdn.127.net/33ba674fbb13e2380ee8a74371eacf43.jpg",
+        "orderNum": 2027
+      },
+      {
+        "id": "4023738",
+        "name": "舒适软弹，糖果色儿童网孔透气运动鞋25-30",
+        "desc": "防踢鞋头，透气网孔更舒适",
+        "price": "139.00",
+        "picture": "https://yanxuan-item.nosdn.127.net/c437179bc1d0d5ad77a79f15a5c6f166.png",
+        "orderNum": 3450
+      },
+      {
+        "id": "4027473",
+        "name": "新款LOGO印花时尚学步叫叫鞋",
+        "desc": "软底包头叫叫鞋",
+        "price": "259.00",
+        "picture": "https://yanxuan-item.nosdn.127.net/841d7669e6cc23cb249f47d8d39fc17c.jpg",
+        "orderNum": 3601
+      },
+      {
+        "id": "4023638",
+        "name": "抓绒保暖，毛毛虫儿童运动鞋26-30",
+        "desc": "宝贝上脚活力出街",
+        "price": "109.00",
+        "picture": "https://yanxuan-item.nosdn.127.net/d917c92e663c5ed0bb577c7ded73e4ec.png",
+        "orderNum": 3282
+      }
+    ],
+    "hotByDay": [
+      {
+        "id": "4019874",
+        "name": "麦瑞克家用轻音智能多功能彩屏跑步机S450",
+        "desc": "多功能跑步机，畅享彩屏",
+        "price": "2089.00",
+        "picture": "https://yanxuan-item.nosdn.127.net/a5d745bbe067ca2468cdb2948f4f10ca.jpg",
+        "orderNum": 2715
+      },
+      {
+        "id": "4027473",
+        "name": "新款LOGO印花时尚学步叫叫鞋",
+        "desc": "软底包头叫叫鞋",
+        "price": "259.00",
+        "picture": "https://yanxuan-item.nosdn.127.net/841d7669e6cc23cb249f47d8d39fc17c.jpg",
+        "orderNum": 3601
+      },
+      {
+        "id": "3463003",
+        "name": "法国年份雅文邑700毫升",
+        "desc": "经典产区限量单一老年份",
+        "price": "1480.00",
+        "picture": "https://yanxuan-item.nosdn.127.net/0a2fff6e0b55178fbbe99d97d94d20a8.png",
+        "orderNum": 3649
+      },
+      {
+        "id": "3494006",
+        "name": "梅乃宿梅酒720毫升",
+        "desc": "小藏手工酿造，百年名酒",
+        "price": "168.00",
+        "picture": "https://yanxuan-item.nosdn.127.net/330913911087b44b0d817dd78233165f.png",
+        "orderNum": 2221
+      }
+    ],
+    "evaluationInfo": null
+  }
+}
