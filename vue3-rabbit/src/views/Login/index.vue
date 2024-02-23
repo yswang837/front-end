@@ -81,13 +81,12 @@ const doLogin =()=>{
         </nav>
         <div class="account-box">
           <div class="form">
-            <el-form ref="formRef" :model="form" :rules="rules" label-position="right" label-width="60px"
-              status-icon>
+            <el-form ref="formRef" :model="form" :rules="rules" label-position="right" label-width="60px" status-icon>
               <el-form-item prop="account" label="账户">
-                <el-input v-model="form.account"/>
+                <el-input v-model="form.account" placeholder="请输入用户名"/>
               </el-form-item>
               <el-form-item prop="password" label="密码">
-                <el-input v-model="form.password"/>
+                <el-input v-model="form.password" placeholder="请输入密码" type="password"/>
               </el-form-item>
               <el-form-item prop="agree" label-width="22px">
                 <el-checkbox  size="large" v-model="form.agree">
