@@ -1,4 +1,5 @@
 <script setup>
+// @/只负责提示的作用，真正路径转化是在vite.config.js里面配置的
 import { useCategoryStore } from '@/stores/category';
 const categoryStore = useCategoryStore()
 </script>
