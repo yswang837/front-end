@@ -81,7 +81,7 @@ const doLogin =()=>{
         </nav>
         <div class="account-box">
           <div class="form">
-            <el-form ref="formRef" :model="form" :rules="rules" label-position="right" label-width="60px" status-icon>
+            <el-form @keyup.enter="doLogin" ref="formRef" :model="form" :rules="rules" label-position="right" label-width="60px" status-icon>
               <el-form-item prop="account" label="账户">
                 <el-input v-model="form.account" placeholder="请输入用户名"/>
               </el-form-item>
