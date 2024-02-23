@@ -1,8 +1,8 @@
 <script setup>
-import {getDetail} from '../../../apis/detail.js'
+import {getDetail} from '@/apis/detail'
 import {onMounted, ref} from 'vue'
 import { useRoute } from 'vue-router';
-import DetailHot  from './components/DetailHot.vue'
+import DetailHot  from '@/views/Detail/components/DetailHot.vue'
 
 const goods = ref({})
 const route = useRoute()

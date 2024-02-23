@@ -31,10 +31,9 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        // 视频中.是@，官网.是~，但这样能用
         additionalData: `
-          @use './styles/element/index.scss' as *;
-          @use './styles/var.scss' as *;
+          @use '@/styles/element/index.scss' as *;
+          @use '@/styles/var.scss' as *;
         `, 
       },
     },

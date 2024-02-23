@@ -1,9 +1,9 @@
 <script setup>
-import { getCategoryFilterAPI } from '../../../apis/category'
-import { getSubCategoryAPI } from '../../../apis/category'
+import { getCategoryFilterAPI } from '@/apis/category'
+import { getSubCategoryAPI } from '@/apis/category'
 import { ref,onMounted } from 'vue';
 import { useRoute } from 'vue-router'
-import GoodsItem from '../Home/components/GoodsItem.vue'
+import GoodsItem from '@/views/Home/components/GoodsItem.vue'
 
 const categoryData = ref({})
 const route = useRoute()

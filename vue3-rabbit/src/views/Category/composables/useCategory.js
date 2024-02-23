@@ -1,6 +1,6 @@
 // 封装分类数据相关的业务代码
 
-import { getTopCategoryAPI } from '../../../../apis/category'
+import { getTopCategoryAPI } from '@/apis/category'
 import { ref,onMounted } from 'vue'
 import { useRoute,onBeforeRouteUpdate } from 'vue-router';
 

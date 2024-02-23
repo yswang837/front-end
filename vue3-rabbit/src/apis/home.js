@@ -1,4 +1,4 @@
-import httpInstance from "../utils/http";
+import httpInstance from "@/utils/http";
 
 export function getBannerAPI(params = {}){
   // 默认为1，商品为2

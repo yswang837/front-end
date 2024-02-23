@@ -1,8 +1,8 @@
 <script setup>
 
-import GoodsItem from '../Home/components/GoodsItem.vue'
-import { useBanner } from './composables/useBanner'
-import { useCategory } from './composables/useCategory'
+import GoodsItem from '@/views/Home/components/GoodsItem.vue'
+import { useBanner } from '@/views/Category/composables/useBanner'
+import { useCategory } from '@/views/Category/composables/useCategory'
 
 const { bannerList } = useBanner()
 const { categoryData } = useCategory()

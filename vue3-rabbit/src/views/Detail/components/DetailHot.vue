@@ -1,7 +1,7 @@
 <script setup>
 
 // 以24小时为例获取数据并渲染模板
-import { getHotGoodsAPI } from '../../../../apis/detail.js'
+import { getHotGoodsAPI } from '@/apis/detail'
 import { ref,onMounted,computed } from 'vue'
 import { useRoute } from 'vue-router'
 
