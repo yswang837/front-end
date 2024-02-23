@@ -28,6 +28,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
+  // 2. 自动导入定制化样式文件进行样式覆盖
   css: {
     preprocessorOptions: {
       scss: {
