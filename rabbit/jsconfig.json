@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "paths": {
+      // 配置联想提示
       "@/*": ["./src/*"]
     }
   },
