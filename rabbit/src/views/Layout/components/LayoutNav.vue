@@ -44,17 +44,17 @@
                 line-height: 1;
                 display: inline-block;
                 i {
-                font-size: 14px;
-                margin-right: 2px;
+                    font-size: 14px;
+                    margin-right: 2px;
                 }
                 &:hover {
                     color: $xtxColor;
                 }
             }
-            ~li {
-                a {
-                    border-left: 2px solid #666;
-                }
+        }
+        ~li {
+            a {
+                border-left: 2px solid #666;
             }
         }
     }
