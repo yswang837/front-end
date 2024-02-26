@@ -1,6 +1,7 @@
 <script setup>
 // @/只负责提示的作用，真正路径转化是在vite.config.js里面配置的
 import { useCategoryStore } from '@/stores/category';
+import HeaderCart from './HeaderCart.vue';
 const categoryStore = useCategoryStore()
 </script>
 
@@ -24,7 +25,7 @@ const categoryStore = useCategoryStore()
         <input type="text" placeholder="搜一搜">
       </div>
       <!-- 头部购物车 -->
-      
+      <HeaderCart />
     </div>
   </header>
 </template>
