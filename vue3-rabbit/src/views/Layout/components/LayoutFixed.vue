@@ -1,7 +1,7 @@
 <script setup>
 // vueUse
 import { useScroll } from '@vueuse/core'
-import { useCategoryStore } from '@/stores/category';
+import { useCategoryStore } from '@/stores/categoryStore.js';
 const { y } = useScroll(window)
 
 // 使用pinia中的数据
