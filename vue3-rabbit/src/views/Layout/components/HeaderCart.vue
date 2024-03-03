@@ -1,8 +1,13 @@
 <script setup>
 import { useCartStore } from '@/stores/cartStore';
+import { useUserStore } from '@/stores/userStore'
+
 const cartStore = useCartStore()
+const userStore = useUserStore()
 
-
+if(userStore.userInfo.token) {
+  cartStore.updateNewList()
+}
 
 </script>
 
