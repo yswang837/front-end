@@ -3,6 +3,5 @@
 </script>
 
 <template>
-    我是导航
+    <h1>我是导航</h1>
 </template>
-    

@@ -3,6 +3,6 @@
 </script>
 
 <template>
-    我是home页
+    <h1>我是home页</h1>
 </template>
     
