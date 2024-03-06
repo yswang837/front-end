@@ -4,6 +4,6 @@
 
 <template>
     <div class="container">
-		<div class="header">标题栏</div>
+		<div class="header" style="background-color: cornsilk">标题栏</div>
 	</div>
 </template>
