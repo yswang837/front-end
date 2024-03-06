@@ -3,6 +3,6 @@
 </script>
 
 <template>
-    <h1>我是header</h1>
+    <h4>我是header</h4>
 </template>
     

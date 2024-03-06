@@ -3,9 +3,6 @@
 </script>
 
 <template>
-    <body>
-        body
-    </body>
-    <h1>我是footer</h1>
+    <h4>我是footer</h4>
 </template>
     
