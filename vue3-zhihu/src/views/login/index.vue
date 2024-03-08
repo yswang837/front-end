@@ -15,7 +15,7 @@ const form = reactive({
 
 const formInline = reactive({
   user: '',
-  region: '',
+  region: '中国+86',
   date: '',
 })
 
@@ -48,25 +48,25 @@ const formInline = reactive({
                     <el-tab-pane label="验证码登录" name="first">User </el-tab-pane>
                     <el-tab-pane label="密码登录" name="second">Config</el-tab-pane>
                     <el-form :inline="true" :model="formInline" class="demo-form-inline">
-                        <el-form-item label="Activity zone">
-                            <el-select v-model="formInline.region" placeholder="Activity zone" clearable>
-                                <el-option label="Zone one" value="shanghai" />
-                                <el-option label="Zone two" value="beijing" />
+                        <el-form-item>
+                            <el-select v-model="formInline.region" clearable style="min-width: 100px;">
+                                <el-option label="中国+86" value="86" />
+                                <el-option label="美国+1" value="1" />
                             </el-select>
                         </el-form-item>
-                        <el-form-item label="Approved by">
-                            <el-input v-model="formInline.user" placeholder="Approved by" clearable />
+                        <el-form-item>
+                            <el-input v-model="formInline.user" placeholder="手机号" clearable />
                         </el-form-item>
                     </el-form>
                     <div>
                         <el-form :model="form" label-width="auto" style="max-width: 600px">
-                            <el-form-item label="Activity name">
-                            <el-input v-model="form.name" />
+                            <el-form-item>
+                            <el-input v-model="form.name"  placeholder="输入6位短信验证码"/>
                             </el-form-item>
                         </el-form>
                         <a href="">获取短信验证码</a>
-                        <a href="">获取语音验证码</a>
                     </div>
+                    <a href="">获取语音验证码</a>
                     <el-button type="primary">登录/注册</el-button>
                     <p>其他登录方式</p>
                     <ul>
