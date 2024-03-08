@@ -1,4 +1,17 @@
 <script setup>
+import { reactive } from 'vue'
+
+// do not use same name with ref
+const form = reactive({
+  name: '',
+  region: '',
+  date1: '',
+  date2: '',
+  delivery: false,
+  type: [],
+  resource: '',
+  desc: '',
+})
 
 </script>
 
@@ -16,13 +29,21 @@
                     <p class="title2">其他扫码方式：微信</p>
                 </div>
                 <div class="button-container">
-                    <el-button>下载知乎App</el-button>
-                    <el-button>开通机构号</el-button>
-                    <el-button>无障碍模式</el-button>
+                    <ul>
+                        <li class="btn"><el-button round>下载知乎App</el-button></li>
+                        <li class="btn"><el-button round>无障碍模式</el-button></li>
+                        <li class="btn"><el-button round>无障碍模式</el-button></li>
+                    </ul>
                 </div>
                 
             </div>
-            <div class="login-right">2</div>
+            <div class="login-right">
+                <el-tabs v-model="activeName" class="demo-tabs" @tab-click="handleClick">
+                    <el-tab-pane label="验证码登录" name="first">User </el-tab-pane>
+                    <el-tab-pane label="密码登录" name="second">Config</el-tab-pane>
+                </el-tabs>
+                
+            </div>
         </div>
         <div class="login-bottom">3</div>
     </div>
@@ -39,8 +60,8 @@
 }
 .login-img{
     text-align: center;
-    padding-top: 60px;
-    margin-bottom: 24px;
+    padding-top: 40px;
+    margin-bottom: 17px;
 }
 
 .login-img img {
@@ -61,7 +82,7 @@
     background-color: #fff;
     border-right: 1px solid #ddd;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
 }
 
 .login-right {
@@ -72,7 +93,7 @@
 }
 
 .qr-container {
-    padding-top: 98px;
+    padding-top: 78px;
 }
 
 .title1 {
@@ -94,8 +115,8 @@
 .qr-container img {
     border: 1px solid #ebeced;
     padding: 8px;
-    width: 120px;
-    height: 120px;
+    width: 138px;
+    height: 138px;
 }
 
 .title2 {
@@ -106,15 +127,21 @@
     font-weight: 600;
 }
 
-.button-container {
+.button-container ul {
     display: flex;
-    margin-top: 26px;
-    margin-bottom: 22px;
-    height: 60px;
+    margin-top: 70px;
+    justify-content: center;
 }
 
-el-button {
-    display: inline-flex;
+.button-container .el-button {
+    font-size: 11px;
+    margin-right: 8px;
+    color: black;
+}
+
+
+.button-container{
+    
 }
 
 </style>
