@@ -47,32 +47,9 @@ const formInline = reactive({
                 <el-tabs v-model="activeName" class="demo-tabs" @tab-click="handleClick">
                     <el-tab-pane label="验证码登录" name="first">User </el-tab-pane>
                     <el-tab-pane label="密码登录" name="second">Config</el-tab-pane>
-                    <!-- <div>
-                        <div>
-                            <el-form :model="form" label-width="auto" style="max-width: 600px">
-                                <el-form-item label="Activity zone">
-                                <el-select v-model="form.region" placeholder="please select your zone">
-                                    <el-option label="Zone one" value="shanghai" />
-                                    <el-option label="Zone two" value="beijing" />
-                                </el-select>
-                                </el-form-item>
-                            </el-form>
-                        </div>
-                        <div>
-                            <el-form :model="form" label-width="auto" style="max-width: 600px">
-                                <el-form-item label="Activity name">
-                                <el-input v-model="form.name" />
-                                </el-form-item>
-                            </el-form>
-                        </div>
-                    </div> -->
                     <el-form :inline="true" :model="formInline" class="demo-form-inline">
                         <el-form-item label="Activity zone">
-                            <el-select
-                                v-model="formInline.region"
-                                placeholder="Activity zone"
-                                clearable
-                            >
+                            <el-select v-model="formInline.region" placeholder="Activity zone" clearable>
                                 <el-option label="Zone one" value="shanghai" />
                                 <el-option label="Zone two" value="beijing" />
                             </el-select>
@@ -82,13 +59,11 @@ const formInline = reactive({
                         </el-form-item>
                     </el-form>
                     <div>
-                        <div>
-                            <el-form :model="form" label-width="auto" style="max-width: 600px">
-                                <el-form-item label="Activity name">
-                                <el-input v-model="form.name" />
-                                </el-form-item>
-                            </el-form>
-                        </div>
+                        <el-form :model="form" label-width="auto" style="max-width: 600px">
+                            <el-form-item label="Activity name">
+                            <el-input v-model="form.name" />
+                            </el-form-item>
+                        </el-form>
                         <a href="">获取短信验证码</a>
                         <a href="">获取语音验证码</a>
                     </div>
