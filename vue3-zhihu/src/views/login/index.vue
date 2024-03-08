@@ -13,6 +13,12 @@ const form = reactive({
   desc: '',
 })
 
+const formInline = reactive({
+  user: '',
+  region: '',
+  date: '',
+})
+
 </script>
 
 <template>
@@ -41,8 +47,60 @@ const form = reactive({
                 <el-tabs v-model="activeName" class="demo-tabs" @tab-click="handleClick">
                     <el-tab-pane label="验证码登录" name="first">User </el-tab-pane>
                     <el-tab-pane label="密码登录" name="second">Config</el-tab-pane>
+                    <!-- <div>
+                        <div>
+                            <el-form :model="form" label-width="auto" style="max-width: 600px">
+                                <el-form-item label="Activity zone">
+                                <el-select v-model="form.region" placeholder="please select your zone">
+                                    <el-option label="Zone one" value="shanghai" />
+                                    <el-option label="Zone two" value="beijing" />
+                                </el-select>
+                                </el-form-item>
+                            </el-form>
+                        </div>
+                        <div>
+                            <el-form :model="form" label-width="auto" style="max-width: 600px">
+                                <el-form-item label="Activity name">
+                                <el-input v-model="form.name" />
+                                </el-form-item>
+                            </el-form>
+                        </div>
+                    </div> -->
+                    <el-form :inline="true" :model="formInline" class="demo-form-inline">
+                        <el-form-item label="Activity zone">
+                            <el-select
+                                v-model="formInline.region"
+                                placeholder="Activity zone"
+                                clearable
+                            >
+                                <el-option label="Zone one" value="shanghai" />
+                                <el-option label="Zone two" value="beijing" />
+                            </el-select>
+                        </el-form-item>
+                        <el-form-item label="Approved by">
+                            <el-input v-model="formInline.user" placeholder="Approved by" clearable />
+                        </el-form-item>
+                    </el-form>
+                    <div>
+                        <div>
+                            <el-form :model="form" label-width="auto" style="max-width: 600px">
+                                <el-form-item label="Activity name">
+                                <el-input v-model="form.name" />
+                                </el-form-item>
+                            </el-form>
+                        </div>
+                        <a href="">获取短信验证码</a>
+                        <a href="">获取语音验证码</a>
+                    </div>
+                    <el-button type="primary">登录/注册</el-button>
+                    <p>其他登录方式</p>
+                    <ul>
+                        <li><svg class="icon-font"><use xlink:href="#icon-weixin"></use></svg></li>
+                        <li><svg class="icon-font"><use xlink:href="#icon-QQ"></use></svg></li>
+                        <li><svg class="icon-font"><use xlink:href="#icon-shejiaotubiao-06"></use></svg></li>
+                    </ul>
+                    <small>未注册手机验证后自动登录，注册即代表同意《知乎协议》《隐私保护指引》</small>
                 </el-tabs>
-                
             </div>
         </div>
         <div class="login-bottom">3</div>
