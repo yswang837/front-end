@@ -1,5 +1,13 @@
 <script setup>
-
+import { LoginRegisterAPI } from '@/apis/test'
+import { onMounted } from 'vue';
+const getLogin = async ()=>{
+    const res = await LoginRegisterAPI({email:'yswang837@gmail.com',password:'123123',identity_code:'720186'})
+    console.log(res);
+    // payInfo.value = res.result
+    // 初始化倒计时秒数
+}
+onMounted(()=>getLogin())
 </script>
 
 <template>
