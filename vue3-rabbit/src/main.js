@@ -12,8 +12,6 @@ import {lazyPlugin} from '@/directives/'
 // 引入全局组件插件
 import {componentsPlugin} from '@/components/index'
 
-import { LoginRegisterAPI } from '@/apis/test'
-
 const app = createApp(App)
 const pinia = createPinia()
 pinia.use(piniaPluginPersistedstate)
