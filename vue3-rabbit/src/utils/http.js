@@ -7,7 +7,7 @@ import {useUserStore} from '@/stores/userStore.js'
 import router from '@/router'; 
 
 const httpInstance = axios.create({
-    baseURL: 'http://pcapi-xiaotuxian-front-devtest.itheima.net',
+    baseURL: 'http://localhost:4477',
     timeout: 5000
 })
 

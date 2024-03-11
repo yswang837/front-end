@@ -45,7 +45,7 @@ const formInline = reactive({
             </div>
             <div class="login-right">
                 <el-tabs v-model="activeName" class="demo-tabs" @tab-click="handleClick">
-                    <el-tab-pane label="验证码登录" name="first">User </el-tab-pane>
+                    <el-tab-pane label="验证码登录" name="first"></el-tab-pane>
                     <el-tab-pane label="密码登录" name="second">Config</el-tab-pane>
                     <el-form :inline="true" :model="formInline" class="demo-form-inline">
                         <el-form-item>
@@ -170,11 +170,6 @@ const formInline = reactive({
     font-size: 11px;
     margin-right: 8px;
     color: black;
-}
-
-
-.button-container{
-    
 }
 
 </style>
