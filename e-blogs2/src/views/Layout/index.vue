@@ -17,24 +17,4 @@ import LayoutMainContent from './LayoutMainContent/index.vue'
   width: 100%;
   text-align: center;
 }
-.main-content {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  background: #999;
-  color: #fff;
-}
-.left, .right{
-  width: 100px;
-  height: 100%;
-  background-color: gray;
-}
-.content {
-  flex: 1;
-  height: 100%;
-  background: #9f9d7b;
-}
-.footer {
-  height: 50px;
-}
 </style>
