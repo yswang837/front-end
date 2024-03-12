@@ -22,15 +22,4 @@ import LayoutContent from './LayoutContent/index.vue'
   background: #613737;
   color: #fff;
 }
-.left, .right{
-  width: 100px;
-  height: 100%;
-  background-color: gray;
-}
-.content {
-  flex: 1;
-  height: 100%;
-  background: #9f9d7b;
-}
-
 </style>

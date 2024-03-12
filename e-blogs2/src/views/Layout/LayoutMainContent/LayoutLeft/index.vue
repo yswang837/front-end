@@ -20,7 +20,7 @@
   color: #fff;
 }
 .left{
-  width: 100px;
+  width: 250px;
   height: 100%;
   background-color: gray;
 }

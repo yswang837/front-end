@@ -30,7 +30,7 @@
 .container ul {
   display: flex;
   background: #333;
-  height:50px;
+  height:45px;
   justify-content: flex-end;
   align-items: center;
   li {

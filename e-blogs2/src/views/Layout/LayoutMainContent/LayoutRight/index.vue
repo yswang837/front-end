@@ -19,7 +19,7 @@
   color: #fff;
 }
 .right{
-  width: 100px;
+  width: 280px;
   height: 100%;
   background-color: gray;
 }
