@@ -1,14 +1,14 @@
 <script setup>
-import LayoutHeader from './LayoutHeader/index.vue'
-import LayoutFooter from './LayoutFooter/index.vue'
-import LayoutMainContent from './LayoutMainContent/index.vue'
+
 </script>
 
 <template>
   <div class="container">
-    <LayoutHeader />
-    <LayoutMainContent/>
-    <LayoutFooter />
+    <div class="main-content">
+      <span class="left">左侧导航</span>
+      <span class="content">内容区</span>
+      <span class="right">右侧提示</span>
+    </div>
   </div>
 </template>
 
@@ -34,7 +34,5 @@ import LayoutMainContent from './LayoutMainContent/index.vue'
   height: 100%;
   background: #9f9d7b;
 }
-.footer {
-  height: 50px;
-}
+
 </style>
