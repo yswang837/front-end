@@ -19,7 +19,6 @@ import LayoutContent from './LayoutContent/index.vue'
   display: flex;
   width: 100%;
   height: 100%;
-  background: #613737;
-  color: #fff;
+  background: #5d4545;
 }
 </style>
