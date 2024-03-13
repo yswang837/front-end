@@ -1,10 +1,9 @@
 <script setup>
 import Login from './Login/index.vue'
 import { ref } from 'vue'
-const isClickLogin = ref(false)
+let c1 = ref()
 const toLoginComponent = ()=>{
-  isClickLogin.value = true
-  console.log(isClickLogin.value);
+  c1.value.showLoginDialog = true
 }
 </script>
 
@@ -24,7 +23,7 @@ const toLoginComponent = ()=>{
               <li><a href="javascript:;">会员中心</a></li>
       </template>
       <template v-else>
-          <li><a href="javascript:;" @click="toLoginComponent()">请先登录</a><Login :showLoginDialog="`isClickLogin`" /></li>
+          <li><a href="javascript:;" @click="toLoginComponent()">请先登录</a><Login ref="c1" /></li>
           <li><a href="javascript:;">帮助中心</a></li>
           <li><a href="javascript:;">关于我们</a></li>
       </template>
