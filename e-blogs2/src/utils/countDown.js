@@ -1,13 +1,12 @@
 // 封装倒计时逻辑函数
 import {computed, onUnmounted, ref} from 'vue'
-import dayjs from 'dayjs'
 
 export const countDown = ()=>{
     // 响应式数据
     const time = ref(0)
     let timer = null
     // 格式化时间为xx分xx秒
-    const formatTime = computed(()=>dayjs.unix(time.value).format('ss'))
+    const formatTime = computed(()=>time.value)
     // 开启倒计时的函数
     const start = (currentTime)=>{
         // 每隔一秒就减1

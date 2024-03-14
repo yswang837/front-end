@@ -24,21 +24,19 @@ const form1 = reactive({
 
 // 设置5分钟倒计时(验证码5分钟有效，减少一次请求后端的次数)
 const { formatTime, start } = countDown()
-
 // 通过邮箱获取验证码
 const getIdentityCodeByEmail = async (email)=>{
   const res = await getIdentityCodeByEmailAPI(email)
-  console.log(res);
+  console.log('res....',res);
   start(300)
-  console.log(formatTime.value);
 }
 
 // 通过邮箱和验证码登录
 const loginOrRegisterByCode = async (email, identifyCode1) => {
   if (formatTime.value <= 0) {
-    console.log(formatTime.value);
+    console.log('验证码已过期');
   }else {
-    console.log(formatTime.value);
+    console.log('验证码未过期');
   }
   const res = await loginOrRegisterByCodeAPI(email, identifyCode1)
   console.log(res);
