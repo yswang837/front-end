@@ -1,5 +1,6 @@
 <script setup>
 import { reactive, ref } from 'vue';
+import { getIdentityCodeByEmailAPI } from '@/apis/login';
 
 // 控制登录的弹窗是否显示
 const showLoginDialog = ref(false)
@@ -20,6 +21,12 @@ const form1 = reactive({
   agree:true
 })
 
+// 通过邮箱获取验证码
+const getIdentityCodeByEmail = async (email)=>{
+  const res = await getIdentityCodeByEmailAPI(email)
+  console.log(res);
+}
+
 </script>
 
 <template>
@@ -32,7 +39,7 @@ const form1 = reactive({
               </el-form-item>
               <el-form-item prop="identityCode1" label="验证码">
                 <el-input v-model="form1.identifyCode1" placeholder="请输入验证码" clearable />
-                <el-button>获取验证码</el-button>
+                <el-button @click="getIdentityCodeByEmail(form1.email)">获取验证码</el-button>
               </el-form-item>
               <el-form-item prop="agree" label-width="22px">
                 <el-checkbox  size="large" v-model="form1.agree">
