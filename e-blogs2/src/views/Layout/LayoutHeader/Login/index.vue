@@ -11,7 +11,11 @@ const activeName = ref('first')
 // 账密登录输入框
 const username = ref('')
 const password = ref('')
-const identifyCode = ref('')
+const identifyCode1 = ref('')
+
+// 邮箱登录输入框
+const identifyCode2 = ref('')
+const email = ref('')
 
 </script>
 
@@ -22,16 +26,26 @@ const identifyCode = ref('')
         <el-input v-model="username" style="width: 240px" placeholder="请输入用户名" />
         <el-input v-model="password" style="width: 240px" placeholder="请输入密码" type="password" />
         <div>
-          <el-input v-model="identifyCode" style="width: 240px" placeholder="请输入验证码" />
+          <el-input v-model="identifyCode1" style="width: 240px" placeholder="请输入验证码" />
           <!-- 这里放验证码图片 -->
         </div>
       </el-tab-pane>
-      <el-tab-pane label="验证码登录" name="second">手机验证码或者邮箱验证码登录</el-tab-pane>
-      <el-tab-pane label="微信扫码登录" name="third">微信扫码登录</el-tab-pane>
+      <el-tab-pane label="验证码登录" name="second">
+        <el-input v-model="email" style="width: 240px" placeholder="请输入邮箱" />
+        <el-input v-model="identifyCode2" style="width: 240px" placeholder="请输入验证码" />
+      </el-tab-pane>
+      <el-tab-pane label="微信扫码登录" name="third">
+        <img src="@/assets/images/wx-login.png" width="200px">
+      </el-tab-pane>
     </el-tabs>
     <template v-slot:footer>
       <span class="dialog-footer">
-        <el-button type="primary" @click="showLoginDialog=false">登录</el-button>
+        <template v-if="activeName==='first'">
+          <el-button type="primary" @click="showLoginDialog=false">登录</el-button>
+        </template>
+        <template v-if="activeName==='second'">
+          <el-button type="primary" @click="showLoginDialog=false">登录/注册</el-button>
+        </template>
       </span>
     </template>
   </el-dialog>
