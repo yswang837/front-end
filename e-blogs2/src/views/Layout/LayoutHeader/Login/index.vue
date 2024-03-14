@@ -1,6 +1,7 @@
 <script setup>
 import { reactive, ref } from 'vue';
-import { getIdentityCodeByEmailAPI } from '@/apis/login';
+import { getIdentityCodeByEmailAPI,loginOrRegisterByCodeAPI } from '@/apis/login';
+import { countDown } from '@/utils/countDown';
 
 // 控制登录的弹窗是否显示
 const showLoginDialog = ref(false)
@@ -16,21 +17,37 @@ const identifyCode1 = ref('')
 
 // 邮箱登录输入框
 const form1 = reactive({
-  email:'',
+  email:'yswang837@gmail.com',
   identifyCode1:'',
   agree:true
 })
 
+// 设置5分钟倒计时(验证码5分钟有效，减少一次请求后端的次数)
+const { formatTime, start } = countDown()
+
 // 通过邮箱获取验证码
 const getIdentityCodeByEmail = async (email)=>{
   const res = await getIdentityCodeByEmailAPI(email)
+  console.log(res);
+  start(300)
+  console.log(formatTime.value);
+}
+
+// 通过邮箱和验证码登录
+const loginOrRegisterByCode = async (email, identifyCode1) => {
+  if (formatTime.value <= 0) {
+    console.log(formatTime.value);
+  }else {
+    console.log(formatTime.value);
+  }
+  const res = await loginOrRegisterByCodeAPI(email, identifyCode1)
   console.log(res);
 }
 
 </script>
 
 <template>
-  <el-dialog v-model="showLoginDialog" width="30%" center :show-close="false">
+  <el-dialog v-model="showLoginDialog" width="35%" center :show-close="false">
     <el-tabs v-model="activeName" class="demo-tabs" :stretch="true">
       <el-tab-pane label="验证码登录" name="first">
         <el-form :model="form1" label-width="60px" status-icon>
@@ -41,12 +58,13 @@ const getIdentityCodeByEmail = async (email)=>{
                 <el-input v-model="form1.identifyCode1" placeholder="请输入验证码" clearable />
                 <el-button @click="getIdentityCodeByEmail(form1.email)">获取验证码</el-button>
               </el-form-item>
+              <small>未注册邮箱验证通过后将自动登录</small>
               <el-form-item prop="agree" label-width="22px">
                 <el-checkbox  size="large" v-model="form1.agree">
-                  我已同意隐私条款和服务条款
+                  同意《隐私保护协议》和《服务条款》
                 </el-checkbox>
               </el-form-item>
-              <el-button size="large" class="subBtn">登录</el-button>
+              <el-button @click="loginOrRegisterByCode(form1.email, form1.identifyCode1)">登录/注册</el-button>
             </el-form>
       </el-tab-pane>
       <el-tab-pane label="微信扫码登录" name="second">
