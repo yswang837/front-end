@@ -62,7 +62,7 @@ const loginOrRegisterByCode = async (email, identifyCode1) => {
                   同意《隐私保护协议》和《服务条款》
                 </el-checkbox>
               </el-form-item>
-              <el-button @click="loginOrRegisterByCode(form1.email, form1.identifyCode1)">登录/注册</el-button>
+              <el-button type="primary" @click="loginOrRegisterByCode(form1.email, form1.identifyCode1)">登录/注册</el-button>
             </el-form>
       </el-tab-pane>
       <el-tab-pane label="微信扫码登录" name="second">
