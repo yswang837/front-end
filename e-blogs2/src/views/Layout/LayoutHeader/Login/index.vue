@@ -35,6 +35,7 @@ const getIdentityCodeByEmail = async (email)=>{
 const loginOrRegisterByCode = async (email, identifyCode1) => {
   if (formatTime.value <= 0) {
     console.log('验证码已过期');
+    return
   }else {
     console.log('验证码未过期');
   }

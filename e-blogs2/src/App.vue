@@ -1,9 +1,10 @@
 <script setup>
-import layout from '@/views/Layout/index.vue'
+
 </script>
 
 <template>
-  <layout />
+  <!-- 一级路由出口 -->
+  <RouterView/>
 </template>
 
 <style scoped>

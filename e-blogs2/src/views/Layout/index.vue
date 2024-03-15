@@ -1,12 +1,15 @@
 <script setup>
 import LayoutHeader from './LayoutHeader/index.vue'
-import LayoutFooter from './LayoutFooter/index.vue'
+import Navigation from './LayoutNavigation/index.vue'
 import LayoutMainContent from './LayoutMainContent/index.vue'
+import LayoutFooter from './LayoutFooter/index.vue'
+
 </script>
 
 <template>
   <div class="container">
     <LayoutHeader />
+    <Navigation />
     <LayoutMainContent/>
     <LayoutFooter />
   </div>
