@@ -9,19 +9,12 @@
                 <el-form-item >
                     <el-input placeholder="请输入密码" v-model="formData.password"/>
                 </el-form-item>
-                <el-form-item >
-                    <div class="check-code-panel">
-                        <el-input class="input-panel" placeholder="请输入验证码" v-model="formData.checkCode"/>
-                             <div class="check-code">
-                                <IdentifyCode/>
-                            </div>
-                    </div>
-                </el-form-item>
                 <el-form-item>
                     <el-checkbox  v-model="formData.rememberMe" :label="true">记住我</el-checkbox>
                 </el-form-item>
                 <el-form-item>
-                    <el-button type="primary" style="width:100%">登录</el-button>
+                    <el-button type="primary" style="width:100%" @click="login">登录</el-button>
+                    <Vcode :show="isShow" @success="success" @close="close" @fail="fail" :sliderSize="30"></Vcode>
                 </el-form-item>
             </el-form>
         </div>
@@ -31,10 +24,28 @@
 </template>
 
 <script setup>
-import { reactive } from 'vue';
-import  IdentifyCode  from '@/components/IdentifyCode.vue'
-const formData = reactive({})
+import { reactive, ref } from 'vue';
+import Vcode from 'vue3-puzzle-vcode'
+import { useRouter } from 'vue-router';
 
+const formData = reactive({})
+const isShow = ref(false)
+const router=useRouter()
+
+const login = ()=>{
+    isShow.value = true
+}
+const success = (msg)=>{
+    isShow.value = false
+    console.log('验证通过'+msg);
+    router.push('home')
+}
+const fail = ()=>{
+    console.log('验证失败');
+}
+const close = ()=>{
+    isShow.value = false
+}
 
 </script>
 
@@ -58,18 +69,6 @@ const formData = reactive({})
             font-size: 20px;
             text-align: center;
             margin-bottom: 10px;
-        }
-    }
-    .check-code-panel{
-        display: flex;
-        align-items: center;
-        .input-panel{
-            flex:1;
-            margin-right: 5px;
-        }
-        .check-code{
-            height: 30px;
-            cursor: pointer;
         }
     }
 }
