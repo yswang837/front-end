@@ -12,8 +12,11 @@
   "dependencies": {
     "element-plus": "^2.6.1",
     "pinia": "^2.1.7",
+    "sass": "^1.72.0",
+    "sass-loader": "^14.1.1",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "vue3-puzzle-vcode": "^1.1.7"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
