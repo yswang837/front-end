@@ -11,7 +11,7 @@
                     </el-input>
                 </el-form-item>
                 <el-form-item prop="password">
-                    <el-input placeholder="请输入密码" v-model="formData.password">
+                    <el-input placeholder="请输入密码" v-model="formData.password" type="password">
                         <template #prefix>
                         <span class="iconfont icon-password"></span>
                     </template>
@@ -57,8 +57,8 @@ const login = ()=>{
         if(!valid) {
             return
         }
+        isShow.value = true
     })
-    isShow.value = true
 }
 const success = ()=>{
     isShow.value = false
