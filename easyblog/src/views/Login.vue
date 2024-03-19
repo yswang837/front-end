@@ -2,12 +2,20 @@
     <div class="login-body">
         <div class="login-panel">
             <div class="login-title">用户登录</div>
-            <el-form :model="formData">
-                <el-form-item>
-                    <el-input placeholder="请输入账号" v-model="formData.account"/>
+            <el-form :model="formData" :rules="rules" ref="formDataRef">
+                <el-form-item prop="account">
+                    <el-input placeholder="请输入账号" v-model="formData.account">
+                        <template #prefix>
+                            <span class="iconfont icon-account"></span>
+                        </template>
+                    </el-input>
                 </el-form-item>
-                <el-form-item >
-                    <el-input placeholder="请输入密码" v-model="formData.password"/>
+                <el-form-item prop="password">
+                    <el-input placeholder="请输入密码" v-model="formData.password">
+                        <template #prefix>
+                        <span class="iconfont icon-password"></span>
+                    </template>
+                    </el-input>
                 </el-form-item>
                 <el-form-item>
                     <el-checkbox  v-model="formData.rememberMe" :label="true">记住我</el-checkbox>
@@ -27,22 +35,36 @@
 import { reactive, ref } from 'vue';
 import Vcode from 'vue3-puzzle-vcode'
 import { useRouter } from 'vue-router';
-
+const formDataRef = ref()
 const formData = reactive({})
 const isShow = ref(false)
 const router=useRouter()
+const rules = {
+    account:[{
+        required:true,
+        message:'请输入用户名',
+        trigger: 'blur'
+    }],
+    password:[{
+        required:true,
+        message:'请输入密码',
+        trigger: 'blur'
+    }]
+}
 
 const login = ()=>{
+    formDataRef.value.validate((valid)=>{
+        if(!valid) {
+            return
+        }
+    })
     isShow.value = true
 }
-const success = (msg)=>{
+const success = ()=>{
     isShow.value = false
-    console.log('验证通过'+msg);
     router.push('home')
 }
-const fail = ()=>{
-    console.log('验证失败');
-}
+
 const close = ()=>{
     isShow.value = false
 }
