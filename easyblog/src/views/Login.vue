@@ -22,7 +22,7 @@
                 </el-form-item>
                 <el-form-item>
                     <el-button type="primary" style="width:100%" @click="login">登录</el-button>
-                    <Vcode :show="isShow" @success="success" @close="close" @fail="fail" :sliderSize="30"></Vcode>
+                    <Vcode :show="isShow" @success="success" @close="close" :sliderSize="30"></Vcode>
                 </el-form-item>
             </el-form>
         </div>
@@ -40,16 +40,8 @@ const formData = reactive({})
 const isShow = ref(false)
 const router=useRouter()
 const rules = {
-    account:[{
-        required:true,
-        message:'请输入用户名',
-        trigger: 'blur'
-    }],
-    password:[{
-        required:true,
-        message:'请输入密码',
-        trigger: 'blur'
-    }]
+    account:[{required:true, message:'请输入用户名',trigger: 'blur'}],
+    password:[{required:true, message:'请输入密码',trigger: 'blur'}]
 }
 
 const login = ()=>{
